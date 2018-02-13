@@ -19,7 +19,7 @@ class LoadSubreddit extends React.Component {
   }
 
   handleClick (e) {
-    this.props.dispatch(fetchPosts(this.state))
+    this.props.dispatch(fetchPosts(this.state.subreddi))
   }
 
   render () {

@@ -9,4 +9,3 @@ export default combineReducers({ // passes all our functions to the redux
   subreddits,
   waiting
 })
-
